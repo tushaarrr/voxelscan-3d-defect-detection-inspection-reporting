@@ -1,0 +1,13 @@
+# All generated working data is regenerable (run_all.py). Curated showcase
+# assets are copied to docs/ and committed instead.
+data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store

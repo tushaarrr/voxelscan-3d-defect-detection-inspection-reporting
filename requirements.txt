@@ -1,0 +1,9 @@
+# VoxelScan pipeline dependencies (all pip-installable).
+# Phase 1-2 need only the scientific stack; Phase 3-4 add rendering + PDF.
+numpy>=1.26
+scipy>=1.11
+scikit-image>=0.22
+matplotlib>=3.8
+scikit-learn>=1.3
+pyvista>=0.43      # Phase 3: 3D rendering
+fpdf2>=2.7         # Phase 4: PDF inspection report
