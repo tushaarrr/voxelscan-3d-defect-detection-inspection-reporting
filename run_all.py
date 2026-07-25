@@ -28,6 +28,7 @@ import detect
 import classify
 import visualize
 import report
+import make_results
 
 
 def _pick_gif_volume() -> str:
@@ -70,6 +71,7 @@ def run_pipeline(n_volumes=20, seed=42, make_gif=True):
 
     export_demo_assets(gif_vol)
     update_readme_metrics(gif_vol)
+    make_results.build()
     print(f"\nDone in {time.time() - t0:.1f}s. Outputs under {DATA_DIR.relative_to(REPO_ROOT)}/")
 
 

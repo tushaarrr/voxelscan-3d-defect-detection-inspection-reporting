@@ -73,7 +73,9 @@ Per-type detection recall:
 
 All numbers above are written directly from the run outputs
 (`data/metrics_summary.json`, `data/classifier_metrics.json`) by `run_all.py` —
-none are hand-entered.
+none are hand-entered. A fuller breakdown (per-volume table, per-type recall,
+classifier per-class recall, severity distribution, methodology) is in
+**[RESULTS.md](RESULTS.md)**.
 
 ---
 
